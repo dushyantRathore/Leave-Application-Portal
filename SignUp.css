@@ -1,0 +1,28 @@
+label{
+	margin-top: 8px;
+}
+
+form{
+	background-color: #f1f1f1;
+	border-radius: 10px;
+	margin: auto;
+	width: 60%;
+	padding: 4%;
+}
+
+.navbar-header img{
+	width: 210px;
+	height: 50px;
+}
+
+.form-control{
+	width: 80%;
+}
+
+.form-group{
+	padding-left: 15%;
+}
+
+.btn{
+	margin-left: 15%;
+}

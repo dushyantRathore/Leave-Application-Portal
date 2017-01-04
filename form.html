@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leave Application</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="SignUp.css">
+	<script src="https://use.fontawesome.com/b5c93d36d1.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-demo1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+	      	</button>
+			<a href="front.html"><img src="2000px-Indiabulls_logo.svg_.png"></a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-demo1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="SignUp.html">Log Out <i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div style="height: 150px"></div>
+
+<div class="container">
+	<div class="row">
+		<form class="admin" method="post" action="admin_display.php">
+
+  				<div class="form-group">
+    				<label for="InputDept">Team Name</label>
+    				<!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required> -->
+    				<select id="InputDept" name="team" required>
+    					<option value="Web Development">Web Development</option>
+    					<option value="Analytics">Analytics</option>
+    					<option value="Sales">Sales</option>
+    				</select>
+  				</div>
+  				<div class="form-group">
+    				<label for="leave_From">Leave From</label>
+					<input type="date" class="form-control" name = "leave_From" required>
+					<label for="leave_Till">Leave Till</label>
+					<input type="date" class="form-control" name = "leave_Till" required>
+	  			</div>
+	  			<button type="submit" class="btn btn-success">Search</button>
+			</form>
+	</div>
+</div>
+
+
+
+<script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>

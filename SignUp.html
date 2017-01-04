@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="SignUp.css">
+	<script src="https://use.fontawesome.com/b5c93d36d1.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<a href="front.html"><img src="2000px-Indiabulls_logo.svg_.png"></a>
+		</div>
+	</div>
+</nav>
+
+<div style="height: 85px"></div>
+
+<div class="container">
+	<form action="SignUp.php" method="post">
+		<div class="form-group">
+			<label for="InputID">Employee ID</label>
+			<input type="text" class="form-control" name = "employee_ID" id="InputID" placeholder="ID" required>
+			<label for="InputPass">Password</label>
+			<input type="password" class="form-control" name = "employee_Password" id="InputPass" placeholder="Password" required>
+			<label for="InputName">Employee Name</label>
+			<input type="text" class="form-control" name = "employee_Name" id="InputName" placeholder="Full Name" required>
+			<label for="InputTeamName">Team Name</label>
+			<input type="text" class="form-control" name = "team" id="InputTeamName" placeholder="Team Name" required>
+			<label for="InputTeamLeader">Team Leader</label>
+			<input type="text" class="form-control" name = "team_Leader" id="InputTeamLeader" placeholder="Team Leader" required>
+		</div>
+		<button type="submit" class="btn btn-info">Sign Up</button>
+	</form>
+</div>
+
+</body>
+</html>

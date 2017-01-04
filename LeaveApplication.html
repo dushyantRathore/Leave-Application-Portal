@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leave Application</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="SignUp.css">
+	<script src="https://use.fontawesome.com/b5c93d36d1.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<a href="front.html"><img src="2000px-Indiabulls_logo.svg_.png"></a>
+		</div>
+	</div>
+</nav>
+
+<div style="height: 85px"></div>
+
+<div class="container">
+  <h1 align="center"><u>Leave Application</u></h1>
+  <br>
+	<form action = "LeaveApplication.php" method = "post">
+		<div class="form-group">
+			<label for="leave_From">Leave From</label>
+			<input type="date" class="form-control" name = "leave_From" required>
+			<label for="leave_Till">Leave Till</label>
+			<input type="date" class="form-control" name = "leave_Till" required>
+			<label for="reason">Reason</label>
+			<input type="text" class="form-control" name = "reason" required>
+		</div>
+		<button type="submit" class="btn btn-info">Apply</button>
+	</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leave Application Portal</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="MainPage.css">
+	<script src="https://use.fontawesome.com/b5c93d36d1.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-demo1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+	      	</button>
+			<a href="front.html"><img src="2000px-Indiabulls_logo.svg_.png"></a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-demo1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="signup.html">Sign Up <i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
+				<li><a href="#">Guidelines <i class="fa fa-file-text-o" aria-hidden="true"></i></a></li>
+			</ul>
+			<!-- <ul class="nav navbar-nav">
+				<li style="font-size: 30px; margin-left: 30%">Leave Application Portal</li>
+			</ul> -->
+		</div>
+	</div>
+</nav>
+
+<div style="height: 150px"></div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-6 col-md-6">
+		<div class="thumbnail">
+			<form class="employee" action="employee_login.php" method="post">
+				<p>Employee Login:</p>
+  				<div class="form-group">
+    				<label for="InputID"><i class="fa fa-id-card-o" aria-hidden="true"></i> Employee ID</label>
+    				<input type="text"  name = "employee_ID" class="form-control" id="InputID" placeholder="ID" required>
+  				</div>
+					<div class="form-group">
+    				<label for="exampleInputPassword1"><i class="fa fa-key" aria-hidden="true"></i> Password</label>
+    				<input type="password" name = "employee_Password" class="form-control" id="exampleInputPassword1" placeholder="Password" pattern=".{5,30}" required title="Password must be between 5 and 30 characters">
+  				</div>
+  				<button type="submit" class="btn btn-success">Submit</button>
+			</form>
+		</div>
+		</div>
+		<div class="col-lg-6 col-md-6">
+		<div class="thumbnail">
+			<form class="admin" method="post" action = "admin_login.php" style="position:relative; top:30px;">
+				<p>Admin Login:</p>
+  				<div class="form-group">
+    				<label for="exampleInputEmail1"><i class="fa fa-envelope" aria-hidden="true"></i> Admin ID</label>
+    				<input type="text" name = "admin_ID" class="form-control" id="InputID" placeholder="ID" required>
+  				</div>
+  				<div class="form-group">
+    				<label for="exampleInputPassword1"><i class="fa fa-key" aria-hidden="true"></i> Password</label>
+    				<input type="password" name = "admin_Password" class="form-control" id="exampleInputPassword1" placeholder="Password" pattern=".{5,30}" required title="Password must be between 5 and 30 characters">
+  				</div>
+  				<button type="submit" class="btn btn-success">Login</button>
+			</form>
+		</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="http://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>

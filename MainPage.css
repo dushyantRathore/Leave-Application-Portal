@@ -1,0 +1,39 @@
+.employee p{
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.admin p{
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.employee{
+	margin-top: 30px;
+	margin-left: 7%;
+	margin-right: 12%;
+	padding: 40px;
+	border: 2px solid white;
+	background-color: #f1f1f1;
+}
+
+.admin{
+	margin-left: 7%;
+	margin-right: 12%;
+	padding: 40px;
+	border: 2px solid white;
+	background-color: #f1f1f1;
+}
+
+.thumbnail{
+	border: 1px solid white;
+}
+
+.form-control{
+	width: 100%;
+}
+
+.navbar-header img{
+	width: 210px;
+	height: 50px;
+}
